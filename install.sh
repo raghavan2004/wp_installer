@@ -57,7 +57,7 @@ wp theme delete --all
 wp option set blog_public 0
 
 # Set default config 
-wp language core install fr_FR --activate
+wp language core install en_EN --activate
 wp core update-db
 
 ################################
